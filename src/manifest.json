@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "Create React Chrome Extension MV3",
+	"short_name": "CRCEM",
+	"description": "A Chrome Extension Boilerplate for React with Manifest Version 3",
+	"version": "1.0",
+	"author": "Faisal Ahmed",
+	"background": {
+		"service_worker": "background/main.ts"
+	},
+	"icons": {
+		"128": "icons/icon.png"
+	},
+	"content_scripts": [
+		{
+			"js": ["content-script/main.ts"],
+			"matches": ["http://*/*", "https://*/*"]
+		}
+	],
+	"action": {
+		"default_title": "Browser Action",
+		"default_popup": "action/index.html"
+	},
+	"options_ui": {
+		"page": "options/options.html",
+		"open_in_tab": true
+	},
+	"permissions": ["tabs"]
+}
