@@ -15,6 +15,6 @@ To start, clone the project and run `npm install` to install all dependencies. F
 
 From Chrome/Microsoft Edge, go to Extensions page, turn on Developer Mode, and then load unpacked. Select the dist folder as the source of the extension, this should install the app in the browser.
 
-Try editing the `ActionPage.tsx` and `Settings.tsx` files and see the changes reflect automatically.
+Try editing the `src/action/components/ActionPage.tsx` and `src/options/Settings.tsx` files and see the changes reflect automatically.
 
 Feedback/Discussions and pull requests are welcome. :)
