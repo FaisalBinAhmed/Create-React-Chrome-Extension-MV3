@@ -1,4 +1,6 @@
-# Create React Chrome Extension MV3
+# Create React Chrome Extension MV3 (CRCEM)
+
+![CRCEM Icon](/src/icons/icon.png "CRCEM Icon")
 
 This is a Chrome Extension boilerplate with React and hot reload support out of the box.
 The extension is targeted for manifest version 3. This should make it futureproof for newer extension development. ParcelJS is used for bundling the app as extension.
