@@ -11,6 +11,7 @@ The extension includes:
 - React based Options UI (Extension settings page)
 - Typescript-native
 - Hot reload
+- Intellisense support for Chrome APIs
 - And many more..
 
 To start, clone the project and run `npm install` to install all dependencies. Finally, run `npm start` to run the app. This command should build/bundle everything in the `dist` folder.
